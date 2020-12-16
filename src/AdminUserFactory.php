@@ -12,6 +12,6 @@ class AdminUserFactory
      */
     public static function adminUser()
     {
-        return app(config('Ly.providers.admin.model'));
+        return app(config('ly.providers.admin.model'));
     }
 }
