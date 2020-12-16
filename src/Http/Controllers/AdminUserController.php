@@ -134,6 +134,6 @@ class AdminUserController extends Controller
      */
     private function getProviderModel($provider)
     {
-        return app(config('mojito.providers.' . $provider . '.model'));
+        return app(config('ly.providers.' . $provider . '.model'));
     }
 }
