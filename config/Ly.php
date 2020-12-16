@@ -5,7 +5,7 @@ return [
 
     'providers' => [
         'admin' => [
-            'model' => \Moell\Mojito\Models\AdminUser::class,
+            'model' => \Cherish\Ly\Models\AdminUser::class,
             'login_fields' => [
                 'email',
             ],

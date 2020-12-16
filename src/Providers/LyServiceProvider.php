@@ -7,7 +7,7 @@ use Illuminate\Support\ServiceProvider;
 use Cherish\Ly\Console\InstallCommand;
 use Route;
 
-class MojitoServiceProvider extends ServiceProvider
+class LyServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap any application services.

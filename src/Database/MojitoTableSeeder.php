@@ -206,7 +206,7 @@ class MojitoTableSeeder extends Seeder
 
         AdminUserFactory::adminUser()->create([
             'name' => 'admin',
-            'email' => 'admin@gmail.com',
+            'email' => 'admin@qq.com',
             'password' => '$2y$10$TKh8H1.PfQx37YgCzwiKb.KjNyWgaHb9cbcoQgdIVFlYg7B77UdFm', // secret
         ]);
     }
