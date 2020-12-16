@@ -1,10 +1,10 @@
 <?php
 
-namespace Moell\Mojito\Providers;
+namespace Cherish\Ly\Providers;
 
 
 use Illuminate\Support\ServiceProvider;
-use Moell\Mojito\Console\InstallCommand;
+use Cherish\Ly\Console\InstallCommand;
 use Route;
 
 class MojitoServiceProvider extends ServiceProvider

@@ -18,13 +18,13 @@
 首先安装laravel,并且确保你配置了正确的数据库连接。
 
 ```
-composer require moell/mojito
+composer require cherish/ly
 ```
 
 然后运行下面的命令来发布资源:
 
 ```
-php artisan mojito:install
+php artisan ly:install
 ```
 
 命令执行成功会生成配置文件，数据迁移和构建SPA的文件。
@@ -86,6 +86,4 @@ npm run production
   <img src="http://ww1.sinaimg.cn/mw690/7a679ca1ly1fvxrfnr0dhj20dw0dwgp0.jpg" width="250" />
 </p>
 
-## License
 
-Apache License Version 2.0 see http://www.apache.org/licenses/LICENSE-2.0.html

@@ -11,7 +11,7 @@ class InstallCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'mojito:install';
+    protected $signature = 'ly:install';
 
     /**
      * The console command description.
@@ -29,7 +29,7 @@ class InstallCommand extends Command
     public function handle()
     {
         $this->call('vendor:publish', ['--provider' => 'Spatie\Permission\PermissionServiceProvider']);
-        $this->call('vendor:publish', ['--provider' => 'Moell\Mojito\Providers\MojitoServiceProvider']);
+        $this->call('vendor:publish', ['--provider' => 'Cherish\Ly\Providers\LyServiceProvider']);
         $this->call('vendor:publish', ['--provider' => 'Laravel\Sanctum\SanctumServiceProvider']);
     }
 }
