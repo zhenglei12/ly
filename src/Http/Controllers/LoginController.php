@@ -16,7 +16,7 @@ class LoginController extends Controller
 {
     public function authenticate(Request $request)
     {
-        $config = data_get(config("mojito.providers"), $request->provider);
+        $config = data_get(config("ly.providers"), $request->provider);
         if (! $config) {
             return $this->forbidden("Undefined guard");
         }
