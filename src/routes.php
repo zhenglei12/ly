@@ -16,7 +16,7 @@ $router->namespace('\Cherish\Ly\Http\Controllers')
         });
 
 
-        $router->middleware(['auth:sanctum', 'mojito.permission'])->group(function ($router) {
+        $router->middleware(['auth:sanctum', 'ly.permission'])->group(function ($router) {
             $router->apiResources([
                 'role' => 'RoleController',
                 'permission' => 'PermissionController',
