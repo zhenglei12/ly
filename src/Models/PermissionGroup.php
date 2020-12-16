@@ -1,6 +1,6 @@
 <?php
 
-namespace Moell\Mojito\Models;
+namespace Cherish\Ly\Models;
 
 
 use Illuminate\Database\Eloquent\Model;
@@ -11,6 +11,6 @@ class PermissionGroup extends Model
 
     public function permission()
     {
-        return $this->hasMany('Moell\Mojito\Models\Permission', 'pg_id');
+        return $this->hasMany('Cherish\Ly\Models\Permission', 'pg_id');
     }
 }

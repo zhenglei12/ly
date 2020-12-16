@@ -1,9 +1,9 @@
 <?php
 
-namespace Moell\Mojito\Tests\Feature;
+namespace Cherish\Ly\Tests\Feature;
 
 
-use Moell\Mojito\Models\PermissionGroup;
+use Cherish\Ly\Models\PermissionGroup;
 
 class permissionGroupControllerTest extends FeatureTestCase
 {

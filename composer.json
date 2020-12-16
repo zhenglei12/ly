@@ -1,13 +1,13 @@
 {
-    "name": "moell/mojito",
-    "description": "Mojito admin is a component of laravel, vue, element build backend system.",
+    "name": "cherish/ly",
+    "description": "Cherish admin is a component of laravel, vue, element build backend system.",
     "keywords": ["laravel", "admin", "vue", "element", "laravel admin", "vue admin", "element admin"],
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "moell",
-            "email": "moell91@foxmail.com"
+            "name": "cherish",
+            "email": "cherish@qq.com"
         }
     ],
     "require": {
@@ -24,7 +24,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Moell\\Mojito\\": "src/"
+            "Cherish\\Ly\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -32,13 +32,13 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Moell\\Mojito\\Tests\\": "tests/"
+            "Cherish\\Ly\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Moell\\Mojito\\Providers\\MojitoServiceProvider"
+                "Cherish\\Ly\\Providers\\LyServiceProvider"
             ]
         }
     },

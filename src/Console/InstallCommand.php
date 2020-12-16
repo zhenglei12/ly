@@ -1,6 +1,6 @@
 <?php
 
-namespace Moell\Mojito\Console;
+namespace Cherish\Ly\Console;
 
 use Illuminate\Console\Command;
 

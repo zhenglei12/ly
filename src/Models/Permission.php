@@ -1,6 +1,6 @@
 <?php
 
-namespace Moell\Mojito\Models;
+namespace Cherish\Ly\Models;
 
 
 class Permission extends \Spatie\Permission\Models\Permission

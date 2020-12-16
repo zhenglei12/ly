@@ -1,6 +1,6 @@
 <?php
 
-namespace Moell\Mojito\Http\Requests\Role;
+namespace Cherish\Ly\Http\Requests\Role;
 
 
 use Illuminate\Foundation\Http\FormRequest;

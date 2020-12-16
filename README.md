@@ -1,15 +1,3 @@
-# Mojito
-
-Mojito 是一个基于 Laravel, Vue, Element UI 构建的后台管理系统。
-
-## 截图
-
-![mojito-admin.jpg](http://ww1.sinaimg.cn/large/7a679ca1gy1ggfdd1odgvj21420l20uj.jpg)
-
-## Demo
-
-登陆地址 http://mojito.moell.cn/admin/login ， 用户名 `mojito@gmail.com` ，密码 `mojito-demo`
-
 ## 特征
 
 * 可快速衍生多个后台系统
@@ -48,7 +36,7 @@ class Kernel extends HttpKernel
 {
     protected $routeMiddleware = [
         ...
-        'mojito.permission' => \Moell\Mojito\Http\Middleware\Authenticate::class,
+        'ly.permission' => \Cherish\Ly\Http\Middleware\Authenticate::class,
     ];
 
     protected $middlewareGroups = [
@@ -66,7 +54,7 @@ class Kernel extends HttpKernel
 ```
 php artisan migrate
 
-php artisan db:seed --class="Moell\Mojito\Database\MojitoTableSeeder"
+php artisan db:seed --class="Cherish\Ly\Database\MojitoTableSeeder"
 ```
 
 安装 Javscript 依赖

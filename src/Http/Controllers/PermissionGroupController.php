@@ -1,14 +1,14 @@
 <?php
 
-namespace Moell\Mojito\Http\Controllers;
+namespace Cherish\Ly\Http\Controllers;
 
 
 use Illuminate\Http\Request;
-use Moell\Mojito\Http\Requests\PermissionGroup\CreateOrUpdateRequest;
-use Moell\Mojito\Models\PermissionGroup;
-use Moell\Mojito\Models\Permission;
-use Moell\Mojito\Resources\PermissionGroupCollection;
-use Moell\Mojito\Resources\PermissionGroup as PermissionGroupResource;
+use Cherish\Ly\Http\Requests\PermissionGroup\CreateOrUpdateRequest;
+use Cherish\Ly\Models\PermissionGroup;
+use Cherish\Ly\Models\Permission;
+use Cherish\Ly\Resources\PermissionGroupCollection;
+use Cherish\Ly\Resources\PermissionGroup as PermissionGroupResource;
 
 class PermissionGroupController extends Controller
 {

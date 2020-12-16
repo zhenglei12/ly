@@ -1,6 +1,6 @@
 <?php
 
-namespace Moell\Mojito;
+namespace Cherish\Ly;
 
 
 use Illuminate\Database\Eloquent\Model;

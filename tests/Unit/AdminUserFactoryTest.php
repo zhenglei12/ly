@@ -1,11 +1,11 @@
 <?php
 
-namespace Moell\Mojito\Tests\Unit;
+namespace Cherish\Ly\Tests\Unit;
 
 
-use Moell\Mojito\AdminUserFactory;
-use Moell\Mojito\Models\AdminUser;
-use Moell\Mojito\Tests\TestCase;
+use Cherish\Ly\AdminUserFactory;
+use Cherish\Ly\Models\AdminUser;
+use Cherish\Ly\Tests\TestCase;
 
 class AdminUserFactoryTest extends TestCase
 {

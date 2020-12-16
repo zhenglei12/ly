@@ -2,7 +2,7 @@
 
 $router = app('router');
 
-$router->namespace('\Moell\Mojito\Http\Controllers')
+$router->namespace('\Cherish\Ly\Http\Controllers')
     ->prefix('api')
     ->middleware('api')
     ->group(function ($router) {

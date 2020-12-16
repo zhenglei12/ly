@@ -1,6 +1,6 @@
 <?php
 
-namespace Moell\Mojito\Http\Middleware;
+namespace Cherish\Ly\Http\Middleware;
 
 use Auth;
 use Route;

@@ -1,10 +1,10 @@
 <?php
 
-namespace Moell\Mojito\Tests\Unit\Requests;
+namespace Cherish\Ly\Tests\Unit\Requests;
 
 
-use Moell\Mojito\Http\Requests\AdminUser\CreateOrUpdateRequest;
-use Moell\Mojito\Tests\TestCase;
+use Cherish\Ly\Http\Requests\AdminUser\CreateOrUpdateRequest;
+use Cherish\Ly\Tests\TestCase;
 use Validator;
 
 

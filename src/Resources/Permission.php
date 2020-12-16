@@ -1,6 +1,6 @@
 <?php
 
-namespace Moell\Mojito\Resources;
+namespace Cherish\Ly\Resources;
 
 
 use Illuminate\Http\Resources\Json\JsonResource;

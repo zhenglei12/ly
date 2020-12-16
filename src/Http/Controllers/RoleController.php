@@ -1,13 +1,13 @@
 <?php
 
-namespace Moell\Mojito\Http\Controllers;
+namespace Cherish\Ly\Http\Controllers;
 
 use Auth;
 use Illuminate\Http\Request;
-use Moell\Mojito\Http\Requests\Role\CreateOrUpdateRequest;
-use Moell\Mojito\Resources\PermissionCollection;
-use Moell\Mojito\Resources\RoleCollection;
-use Moell\Mojito\Resources\Role as RoleResource;
+use Cherish\Ly\Http\Requests\Role\CreateOrUpdateRequest;
+use Cherish\Ly\Resources\PermissionCollection;
+use Cherish\Ly\Resources\RoleCollection;
+use Cherish\Ly\Resources\Role as RoleResource;
 use Spatie\Permission\Exceptions\RoleAlreadyExists;
 use Spatie\Permission\Models\Role;
 

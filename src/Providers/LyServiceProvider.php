@@ -24,7 +24,7 @@ class MojitoServiceProvider extends ServiceProvider
             ]);
 
             $this->publishes([
-                __DIR__.'/../../config/mojito.php' => config_path('mojito.php'),
+                __DIR__ . '/../../config/Ly.php' => config_path('Ly.php'),
             ], 'config');
 
             $path = version_compare(app()->version(), '5.7.0', '>=')

@@ -1,9 +1,9 @@
 <?php
 
-namespace Moell\Mojito\Tests\Feature;
+namespace Cherish\Ly\Tests\Feature;
 
 
-use Moell\Mojito\Models\Menu;
+use Cherish\Ly\Models\Menu;
 
 class MenuControllerTest extends FeatureTestCase
 {

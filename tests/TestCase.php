@@ -1,13 +1,13 @@
 <?php
 
-namespace Moell\Mojito\Tests;
+namespace Cherish\Ly\Tests;
 
 use DMS\PHPUnitExtensions\ArraySubset\ArraySubsetAsserts;
 use Laravel\Passport\PassportServiceProvider;
 use Laravel\Sanctum\SanctumServiceProvider;
-use Moell\Mojito\Models\AdminUser;
-use Moell\Mojito\Providers\MojitoServiceProvider;
-use Moell\Mojito\Tests\Fixtures\Http\Kernel;
+use Cherish\Ly\Models\AdminUser;
+use Cherish\Ly\Providers\MojitoServiceProvider;
+use Cherish\Ly\Tests\Fixtures\Http\Kernel;
 use Orchestra\Testbench\TestCase as BaseTestCase;
 use SMartins\PassportMultiauth\Providers\MultiauthServiceProvider;
 use Spatie\Permission\Models\Permission;
@@ -64,7 +64,7 @@ abstract class TestCase extends BaseTestCase
 
             'providers' => [
                 'admin' => [
-                    'model' => \Moell\Mojito\Models\AdminUser::class,
+                    'model' => \Cherish\Ly\Models\AdminUser::class,
                     'login_fields' => [
                         'email'
                     ]

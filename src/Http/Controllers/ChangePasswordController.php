@@ -1,11 +1,11 @@
 <?php
 
-namespace Moell\Mojito\Http\Controllers;
+namespace Cherish\Ly\Http\Controllers;
 
 
 use Auth;
 use Hash;
-use Moell\Mojito\Http\Requests\ChangePasswordRequest;
+use Cherish\Ly\Http\Requests\ChangePasswordRequest;
 
 class ChangePasswordController extends Controller
 {

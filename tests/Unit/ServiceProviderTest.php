@@ -1,11 +1,11 @@
 <?php
 
-namespace Moell\Mojito\Tests\Unit;
+namespace Cherish\Ly\Tests\Unit;
 
 use Laravel\Passport\PassportServiceProvider;
 use Laravel\Sanctum\SanctumServiceProvider;
-use Moell\Mojito\Providers\MojitoServiceProvider;
-use Moell\Mojito\Tests\TestCase;
+use Cherish\Ly\Providers\MojitoServiceProvider;
+use Cherish\Ly\Tests\TestCase;
 use SMartins\PassportMultiauth\Providers\MultiauthServiceProvider;
 use Spatie\Permission\PermissionServiceProvider;
 

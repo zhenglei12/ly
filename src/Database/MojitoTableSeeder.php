@@ -1,11 +1,11 @@
 <?php
 
-namespace Moell\Mojito\Database;
+namespace Cherish\Ly\Database;
 
 use Illuminate\Database\Seeder;
-use Moell\Mojito\AdminUserFactory;
-use Moell\Mojito\Models\Menu;
-use Moell\Mojito\Models\PermissionGroup;
+use Cherish\Ly\AdminUserFactory;
+use Cherish\Ly\Models\Menu;
+use Cherish\Ly\Models\PermissionGroup;
 use Spatie\Permission\Models\Permission;
 use Spatie\Permission\Models\Role;
 

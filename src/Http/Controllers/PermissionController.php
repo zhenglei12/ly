@@ -1,14 +1,14 @@
 <?php
 
-namespace Moell\Mojito\Http\Controllers;
+namespace Cherish\Ly\Http\Controllers;
 
 
 use Illuminate\Http\Request;
-use Moell\Mojito\Http\Requests\Permission\CreateOrUpdateRequest;
-use Moell\Mojito\Resources\PermissionCollection;
+use Cherish\Ly\Http\Requests\Permission\CreateOrUpdateRequest;
+use Cherish\Ly\Resources\PermissionCollection;
 use Spatie\Permission\Exceptions\PermissionAlreadyExists;
-use Moell\Mojito\Models\Permission;
-use Moell\Mojito\Resources\Permission as PermissionResource;
+use Cherish\Ly\Models\Permission;
+use Cherish\Ly\Resources\Permission as PermissionResource;
 use Auth;
 
 class PermissionController extends Controller

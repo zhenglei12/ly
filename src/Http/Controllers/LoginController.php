@@ -1,6 +1,6 @@
 <?php
 
-namespace Moell\Mojito\Http\Controllers;
+namespace Cherish\Ly\Http\Controllers;
 
 
 use App\Member;
@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Validation\ValidationException;
 use Laravel\Sanctum\PersonalAccessToken;
-use Moell\Mojito\Models\AdminUser;
+use Cherish\Ly\Models\AdminUser;
 
 class LoginController extends Controller
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace Moell\Mojito\Tests\Feature;
+namespace Cherish\Ly\Tests\Feature;
 
 
 use Laravel\Sanctum\Sanctum;
-use Moell\Mojito\AdminUserFactory;
-use Moell\Mojito\Database\MojitoTableSeeder;
-use Moell\Mojito\Tests\TestCase;
+use Cherish\Ly\AdminUserFactory;
+use Cherish\Ly\Database\MojitoTableSeeder;
+use Cherish\Ly\Tests\TestCase;
 
 class FeatureTestCase extends TestCase
 {

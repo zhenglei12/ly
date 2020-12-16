@@ -1,10 +1,10 @@
 <?php
 
-namespace Moell\Mojito\Tests\Unit\Requests;
+namespace Cherish\Ly\Tests\Unit\Requests;
 
 
-use Moell\Mojito\Http\Requests\PermissionGroup\CreateOrUpdateRequest;
-use Moell\Mojito\Tests\TestCase;
+use Cherish\Ly\Http\Requests\PermissionGroup\CreateOrUpdateRequest;
+use Cherish\Ly\Tests\TestCase;
 use Validator;
 
 class PermissionGroupCreateOrUpdateRequestTest extends TestCase

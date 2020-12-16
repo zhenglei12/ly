@@ -1,13 +1,13 @@
 <?php
 
-namespace Moell\Mojito\Http\Controllers;
+namespace Cherish\Ly\Http\Controllers;
 
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-use Moell\Mojito\Http\Requests\Menu\CreateOrUpdateRequest;
-use Moell\Mojito\Models\Menu;
-use Moell\Mojito\Resources\Menu as MenuResource;
+use Cherish\Ly\Http\Requests\Menu\CreateOrUpdateRequest;
+use Cherish\Ly\Models\Menu;
+use Cherish\Ly\Resources\Menu as MenuResource;
 
 class MenuController extends Controller
 {

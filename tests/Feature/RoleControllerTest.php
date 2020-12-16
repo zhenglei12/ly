@@ -1,6 +1,6 @@
 <?php
 
-namespace Moell\Mojito\Tests\Feature;
+namespace Cherish\Ly\Tests\Feature;
 
 
 use Spatie\Permission\Models\Role;

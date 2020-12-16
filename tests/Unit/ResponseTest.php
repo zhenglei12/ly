@@ -1,10 +1,10 @@
 <?php
 
-namespace Moell\Mojito\Tests\Unit;
+namespace Cherish\Ly\Tests\Unit;
 
 
-use Moell\Mojito\Http\MojitoResponse;
-use Moell\Mojito\Tests\TestCase;
+use Cherish\Ly\Http\MojitoResponse;
+use Cherish\Ly\Tests\TestCase;
 
 class ResponseTest extends TestCase
 {

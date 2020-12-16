@@ -1,6 +1,6 @@
 <?php
 
-namespace Moell\Mojito\Http\Requests\PermissionGroup;
+namespace Cherish\Ly\Http\Requests\PermissionGroup;
 
 
 use Illuminate\Foundation\Http\FormRequest;

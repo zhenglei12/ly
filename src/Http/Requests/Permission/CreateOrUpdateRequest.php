@@ -1,10 +1,10 @@
 <?php
 
-namespace Moell\Mojito\Http\Requests\Permission;
+namespace Cherish\Ly\Http\Requests\Permission;
 
 
 use Illuminate\Foundation\Http\FormRequest;
-use Moell\Mojito\AdminUserFactory;
+use Cherish\Ly\AdminUserFactory;
 
 class CreateOrUpdateRequest extends FormRequest
 {

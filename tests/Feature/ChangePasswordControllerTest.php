@@ -1,10 +1,10 @@
 <?php
 
-namespace Moell\Mojito\Tests\Feature;
+namespace Cherish\Ly\Tests\Feature;
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
-use Moell\Mojito\AdminUserFactory;
+use Cherish\Ly\AdminUserFactory;
 
 class ChangePasswordControllerTest extends FeatureTestCase
 {

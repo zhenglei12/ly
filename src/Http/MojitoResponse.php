@@ -1,6 +1,6 @@
 <?php
 
-namespace Moell\Mojito\Http;
+namespace Cherish\Ly\Http;
 
 use Illuminate\Http\Response;
 

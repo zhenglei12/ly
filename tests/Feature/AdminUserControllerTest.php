@@ -1,8 +1,8 @@
 <?php
 
-namespace Moell\Mojito\Tests\Feature;
+namespace Cherish\Ly\Tests\Feature;
 
-use Moell\Mojito\Models\AdminUser;
+use Cherish\Ly\Models\AdminUser;
 use DB;
 
 class AdminUserControllerTest extends FeatureTestCase

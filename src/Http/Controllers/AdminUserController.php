@@ -1,16 +1,16 @@
 <?php
 
-namespace Moell\Mojito\Http\Controllers;
+namespace Cherish\Ly\Http\Controllers;
 
 
 use Illuminate\Http\Request;
 use Auth;
 use Illuminate\Http\Response;
-use Moell\Mojito\AdminUserFactory;
-use Moell\Mojito\Http\Requests\AdminUser\CreateOrUpdateRequest;
-use Moell\Mojito\Resources\AdminUser as AdminUserResource;
-use Moell\Mojito\Resources\AdminUserCollection;
-use Moell\Mojito\Resources\RoleCollection;
+use Cherish\Ly\AdminUserFactory;
+use Cherish\Ly\Http\Requests\AdminUser\CreateOrUpdateRequest;
+use Cherish\Ly\Resources\AdminUser as AdminUserResource;
+use Cherish\Ly\Resources\AdminUserCollection;
+use Cherish\Ly\Resources\RoleCollection;
 
 class AdminUserController extends Controller
 {
