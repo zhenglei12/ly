@@ -24,7 +24,7 @@ class LyServiceProvider extends ServiceProvider
             ]);
 
             $this->publishes([
-                __DIR__ . '/../../config/Ly.php' => config_path('Ly.php'),
+                __DIR__ . '/../../config/ly.php' => config_path('ly.php'),
             ], 'config');
 
             $path = version_compare(app()->version(), '5.7.0', '>=')
